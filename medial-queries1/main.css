@@ -1,3 +1,7 @@
 body {
   background: blanchedalmond;
 }
+
+.container {
+  display:flex;
+}

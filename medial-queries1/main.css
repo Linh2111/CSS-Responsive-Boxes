@@ -1,64 +1,51 @@
 
 body {
-  background: blanchedalmond;
+  background: rgb(248, 248, 247);
  
 }
 
-@media (min-width: 800px) {}
-.container {
-  /* display: flex; */
-  margin: 2px;
-  padding: 10px;
-  border:1px solid rgba(65, 64, 64, 0.637);
-  outline: 5px;
-}
 
- 
+
+  header{
+    display: flex;
+  }
+
+  main {
+    display:flex;
+    width: 100%;
+  }
+
+
+
+
+
+  .container div {
+    display: flex;
+    border: 1px #a49f9f solid;
+    padding: 10px;
+    text-align: center; 
+    align-items: center;
+    justify-content:space-between;
+    justify-content:center; 
+    margin: 10px;
+    height: 45vh;
+    background-color: #e2e3e3fe;
+    size:2em;
+  } 
+
+
+
 .a {
-  min-height: fit-content;
-  /* border:2px solid; */
-  /* text-align: center; */
-  /* padding: 5px; */
-  /* margin: 10px; */
-  /* align-content: center;*/
-  /*justify-content: center;*/
-  /* flex-wrap:wrap;*/
-  /*color:rgba(65, 64, 64, 0.637);*/
-  
-}
-
-#row2 {
-  display: flex;
+  flex-basis: 100%;
   text-align: center;
-  padding: 5px;
-  margin: 10px;
-  align-content: center;
-  justify-content: center;
-  color:rgba(104, 9, 9, 0.637);
-  border: 2px solid;
-  align-self: auto | flex-start | flex-end | center | baseline | stretch;
-
 }
+
 .b {
- /* display: inline-block;
-  border: 1px solid;
-   text-align: center;
-  padding: 5px, 0px;
-  margin: 10px 0px;
-  align-content: center;
-  justify-content: center; */
-  flex-grow: 1;
-  
-} 
+  flex:3;
+ 
+}
 
 .c {
-  /*display: inline-block;
-  border: 1px solid;
-  /* text-align: center;
-  padding: 5px, 0px;
-  margin: 10px 1px;
-  align-content: center;
-  justify-content: center; */
- 
-
+  flex:1;
+  
 }

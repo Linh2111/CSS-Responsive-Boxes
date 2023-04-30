@@ -1,3 +1,73 @@
 body {
-  background: papayawhip;
+  background: rgb(252, 252, 251);
+  display: flex;
+}
+
+
+.container {
+ /* display: flex; */
+}
+
+.container div {
+display: flex;
+}
+
+
+/*.container div{
+/*  display: flex;/*
+/*  border: 1px #a49f9f solid;/*
+/*  padding: 10px;/*
+/*  text-align: center; /*
+/*  align-items: center;/*
+/*  justify-content:space-between;/*
+/*  justify-content:center; /*
+/*  margin: 10px;/*
+/*  height: 45vh;/*
+/*  background-color: #e2e3e3fe;/*
+/*  size:2em;
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: column
+}
+
+main {
+/*  display: flex;/*
+}
+
+#row2 {
+/*  display: flex;/*
+  
+}
+#row3 {
+/*  display: flex;/*
+ 
+}
+
+#row2 .b {
+/*  display: flex;/*
+/*  flex: 3;/*
+}
+
+.c {
+/*  display: flex;/*
+/*  flex:1/*
+}
+
+.d {
+/*  display: flex;/*
+/*  flex:1/*
+}
+
+.e {
+/*  display: flex;/*
+/*  flex:1/*
+}
+
+aside .f {
+/*  display: none;/*
+/*  flex:1/*
 }

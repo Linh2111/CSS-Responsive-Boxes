@@ -1,3 +1,109 @@
+* {
+background-color: whitesmoke;
+/* outline: 1px solid; */
+text-align: center;
+margin: 0;
+}
+
 body {
-  background: peachpuff;
+    font-size: 3em;
+      height: 98vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
+      margin:0;
+      padding: 25px;
+}
+
+div{
+margin: 12px;
+border: solid gray;
+background-color: rgb(217, 216, 216);
+}
+
+.container {
+height: 95vh;
+display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+header {
+height: 20vh;
+}
+
+header, aside {
+
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header>div, aside>div {
+height: 90%;
+width: 98%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main {
+height: 30vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    align-items: center;
+}
+
+.row-1,.row-2{
+display: flex;
+align-items: center;
+height: 100%;
+width: 100%;
+}
+
+.row-1>div, .row-2>div{
+flex-grow:1;
+flex-shrink:1;
+height:80%;
+display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+aside{
+height: 50vh;
+}
+
+@media (min-width: 600px) {
+
+.container {
+height: 98vh;
+display: flex;
+flex-direction: column;
+}
+
+header {
+  height:30vh;
+
+}
+
+.wrapper {
+display: flex;
+height: 70vh;
+}
+  
+main{
+flex-grow: 1;
+height: 70vh;
+}
+
+aside {
+flex: 1 1 0;
+height: 100%;
+  
 }

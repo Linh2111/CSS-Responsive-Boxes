@@ -1,73 +1,180 @@
-body {
-  background: rgb(252, 252, 251);
-  display: flex;
+* {
+background-color: whitesmoke;
+/* outline: 1px solid; */
+text-align: center;
 }
 
+body {
+font-size: 3em;
+ height: 98vh;
+width: 98vw;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
 
 .container {
- /* display: flex; */
+height: 95vh;
+width: 95%;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.container div {
+.item {
+border: 2px solid gray;
+}
+
+header {
+width:97%;
+height: 25vh;
 display: flex;
 }
 
+header>div{
+background-color: rgb(217, 216, 216);
+width: 100vw;
+height: 12vh;
+margin-bottom: 0px;
+}
 
-/*.container div{
-/*  display: flex;/*
-/*  border: 1px #a49f9f solid;/*
-/*  padding: 10px;/*
-/*  text-align: center; /*
-/*  align-items: center;/*
-/*  justify-content:space-between;/*
-/*  justify-content:center; /*
-/*  margin: 10px;/*
-/*  height: 45vh;/*
-/*  background-color: #e2e3e3fe;/*
-/*  size:2em;
+div{
+
+    margin: 20px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
 
 
+.wrapper {
+border:none;
+width: 95%;
+display: flex;
+    flex-direction: column;
+    
 
-header {
-  display: flex;
-  flex-direction: column
 }
 
 main {
-/*  display: flex;/*
+height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-#row2 {
-/*  display: flex;/*
-  
-}
-#row3 {
-/*  display: flex;/*
- 
-}
-
-#row2 .b {
-/*  display: flex;/*
-/*  flex: 3;/*
+main>div {
+height: 100vh;
+width: 100%;
+background-color: rgb(217, 216, 216);
+margin-top: 0px;
+margin-bottom: 50px;
 }
 
-.c {
-/*  display: flex;/*
-/*  flex:1/*
+
+aside {
+height: 10vh;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.d {
-/*  display: flex;/*
-/*  flex:1/*
+aside>div{
+padding:12px;
+margin:12px;
+background-color: rgb(217, 216, 216);
+height: 90%;
+flex-grow: 1;
+flex-shrink: 1;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.e {
-/*  display: flex;/*
-/*  flex:1/*
+footer {
+    margin:0;
+width: 100%;
+height: 20vh;
+display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-aside .f {
-/*  display: none;/*
-/*  flex:1/*
+footer>div {
+background-color: rgb(217, 216, 216);
+height: 15vh;
+width: 89vw;
+}
+
+
+@media (min-width: 600px) {
+
+.container{
+display:flex;
+flex-direction: column;
+
+}
+
+header{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+header>div{
+width:86vw;
+height: 20vh;
+
+}
+
+.wrapper-and-footer{
+border:none;  
+margin:0; 
+padding: 0px;
+display: flex;
+flex-direction: row;
+}
+
+.wrapper {
+width:80%;
+
+}
+
+.wrapper>main{
+height:50vh;
+width: 100%;
+}
+
+aside>div{
+flex:1;
+}
+
+.wrapper>aside {
+height: 22vh;
+flex: 1;
+}
+
+footer {
+width:35%;
+height: 75vh;
+}
+
+footer>div{
+height:71vh;
+flex: 1;
+margin-top: 0px;
+}
 }
